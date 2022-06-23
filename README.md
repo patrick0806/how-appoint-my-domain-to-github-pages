@@ -1,18 +1,18 @@
-# Como apontar meu dominio para o github pages
+# How to point my domain to github pages
 
-No provedor do Domínio vá nas configurações DNS e adicione quatro registros do tipo A com a seguintes informações:
+In the Domain provider, go to DNS settings and add four type A records with the following information:
 
-| Nome | tipo de registro | valor |
+| Name | record type | value |
 | --- | --- | --- |
 | --- | A | 185.199.108.153 |
 | --- | A | 185.199.109.153 |
 | --- | A | 185.199.110.153 |
 | --- | A | 185.199.111.153 |
 
-**Obs: O valor nome está limpo mas dependendo da plataforma em que estiver hospedado o domino vai ser pedido para colocar o @ no local do nome**
+**Note: The name value is clean but depending on the platform it is hosted on, domino will be asked to put the @ in the name's place**
 
-Após inserido essas informações, vamos criar um novo registro do tipo CNAME
+After entering this information, let's create a new record of type CNAME
 
-| Nome | tipo de registro | valor |
+| Name | record type | value |
 | --- | --- | --- |
 | www | CNAME | ytechsolucoes.com |
